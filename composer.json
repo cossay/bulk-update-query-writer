@@ -1,0 +1,22 @@
+{
+    "name": "cosman/query",
+    "description": "A simple bulk update query generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agbitor Cosman",
+            "email": "agbitorcosman@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Cosman\\Query\\": "src/Cosman/Query"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
