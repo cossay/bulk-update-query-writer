@@ -25,7 +25,7 @@ class BulkUpdateBilderTest extends TestCase
      */
     public function setUp()
     {
-        $pdo = new PDO('mysql:dbname=my_users;host=localhost', 'root', 'cossay');
+        $pdo = new PDO('mysql:dbname=databasename;host=localhost', 'username', 'password');
         
         $this->builder = new BulkUpdateBuilder($pdo);
     }
