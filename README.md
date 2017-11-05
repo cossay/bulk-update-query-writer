@@ -33,7 +33,7 @@ $condition = sprintf('%s > %s', $builder->quoteField('age'), $builder->quoteValu
 echo $builder->build('users', 'id', $attributes, $condition);
 
 ```
-Then first ```echo``` statement will produce the following query
+Then first ```echo``` statement produces the following query
 ```sql
 UPDATE
     `users`
@@ -53,7 +53,7 @@ END
 WHERE
     `id` IN('1', '2')
 ```
-The second ```echo``` statement will produce
+The second ```echo``` statement produces the following query
 ```sql
 UPDATE
     `users`
